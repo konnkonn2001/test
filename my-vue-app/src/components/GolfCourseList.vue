@@ -28,7 +28,7 @@ onMounted(async () => {
       <li v-for="course in golfCourses" :key="course.golfCourseId" style="margin-bottom:1em">
         <strong>{{ course.golfCourseName }}</strong><br>
         住所: {{ course.address }}<br>
-        電話: {{ course.telephone }}
+        電話: {{ course.telephone ? course.telephone : '情報なし' }}<br>
       </li>
     </ul>
   </div>

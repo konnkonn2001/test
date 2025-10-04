@@ -3,6 +3,7 @@ import GolfCourseList from './components/GolfCourseList.vue'
 </script>
 
 <template>
+
   <GolfCourseList />
 </template>
 
